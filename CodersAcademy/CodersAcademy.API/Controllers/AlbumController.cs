@@ -12,7 +12,7 @@ namespace CodersAcademy.API.Controllers
     public class AlbumController : ControllerBase
     {
         [HttpGet]
-        public async Task<IActionResult> GetAlbuns()
+        public IActionResult GetAlbuns()
         {
             return Ok(new {
                 Message = "Primeira Api criada"
